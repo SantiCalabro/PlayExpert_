@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 900;
+}
+.container.active {
+  background-color: #1b1b1b;
+  z-index: 900;
+  transition: 0.15s ease-in-out;
+}
+.logoAndMenu {
+  display: flex;
+  height: 70px;
+  position: relative;
+  float: left;
+  top: 10px;
+  right: 30px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navList li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.navList li:hover {
+  color: #2bfab7;
+  transition: 0.15s ease-in-out;
+}
+
+.searchAndCart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 60px;
+}
+.searchBar {
+  border: solid 1px gray;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+.searchBar input {
+  color: #fff;
+  outline: none;
+}
+.loginText {
+  color: #fff;
+  font-weight: 200;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.cart {
+  margin-left: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.mode {
+  height: 15px;
+  position: relative;
+  top: 7px;
+  left: 20px;
+  cursor: pointer;
+}
+switch {
+  rotate: 180deg;
+}
+
+.searchIcon,
+.cart {
+  width: 25px;
+  padding-left: 5px;
+  position: relative;
+  bottom: 3px;
+}
+.searchIcon {
+  border-left: solid 1px gray;
+  bottom: 0px;
+}
+.searchBar button {
+  background-color: transparent;
+  border: none;
+}
+.searchAndCart input {
+  background-color: transparent;
+  border: none;
+  height: 15px;
+}
+.line {
+  width: 100%;
+  position: absolute;
+  margin-top: 3px;
+  z-index: -999;
+}
+hr {
+  position: relative;
+  top: 50px;
+  border: none;
+  border: solid 1px #fff;
+}
+.logo {
+  height: 120px;
+  position: relative;
+  bottom: 38px;
+}
